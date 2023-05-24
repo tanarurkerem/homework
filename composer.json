@@ -20,5 +20,10 @@
         "squizlabs/php_codesniffer": "*",
         "phpmetrics/phpmetrics": "*",
         "phpunit/phpunit": "*"
+    },
+    "scripts": {
+        "test" : "vendor/bin/phpunit tests",
+        "phpcs" : "phpcs --standard=PSR12 src tests",
+        "phpmd" : "phpmd src,tests text cleancode,codesize,controversial,design,naming,unusedcode"
     }
 }
