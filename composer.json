@@ -1,0 +1,24 @@
+{
+    "name": "tanarurkerem/homework",
+    "description": "Homework for OH",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Tanarurkerem\\Homework\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Palocz Istvan",
+            "email": "istvan@palocz.hu"
+        }
+    ],
+    "require-dev": {
+        "phpmd/phpmd": "*",
+        "phpstan/phpstan": "*",
+        "squizlabs/php_codesniffer": "*",
+        "phpmetrics/phpmetrics": "*",
+        "phpunit/phpunit": "*"
+    }
+}
